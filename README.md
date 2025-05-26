@@ -38,6 +38,4 @@ Cette application web permet de rechercher et d'afficher les prévisions météo
 1. Clone ce dépôt ou copie les fichiers sur ton serveur local :
 
 ```bash
-git clone  https://github.com/ridarca/Projet-Meteo.git
-
- 
+git clone https://github.com/ridarca/Projet-Meteo.git
