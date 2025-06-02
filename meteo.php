@@ -162,7 +162,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["city"])) {
     </p>
 
     <?php
-    setlocale(LC_TIME, 'fr_FR.UTF-8');
     $groupedByDate = [];
     foreach ($weatherData['list'] as $entry) {
         $date = date('Y-m-d', strtotime($entry['dt_txt']));
